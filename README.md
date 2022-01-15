@@ -5,14 +5,18 @@
 * Start the containers
 
 ```bash
-./up.sh
+./control.sh up
 ```
 
 * Stop the containers
 ```bash
-./down.sh
+./control.sh down
 ```
 * Attach to container bash
 ```bash
 docker exec -it docker_model_default bash
+```
+* Clean all data (default container)
+```bash
+./control.sh clean
 ```
